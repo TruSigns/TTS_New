@@ -14,16 +14,14 @@ body { background-image: url(./logos/Background_imagine.jpg);
     height: 60px;
     width: 70px;
     position: relative;
-}
-
-.cart{
-    
-    height: 60px;
-    width: 70px;
-    
     margin-left: 10px;
 
-}
+
+}   
+
+
+
+
 .shop {
 
     width: 70px;
@@ -81,12 +79,7 @@ nav ul li {
 
 }
 
-nav img {
 
-    padding:  0px 20px;
-
-
-}
 
 nav ul li a {
 
@@ -100,11 +93,18 @@ nav ul li a {
 
 }
 
+nav ul li a:hover {
+
+    background-color: aquamarine;
+    box-shadow: 0 0 10px;
+    transform: scale(1.5);
+}
+
 nav ul li ul {
 
     display: none;
     position: absolute;
-    background-color: red;
+    background-color: lightblue;
     
 
 }
@@ -134,7 +134,7 @@ nav ul li ul li a{
 
 nav ul li ul li a:hover{
 
-    background-color: seagreen;
+    background-color: lightgreen;
 
 
 }
@@ -147,13 +147,32 @@ nav ul li ul li a:hover{
     margin-top: 20px;
     float: right;
     font-size: 14px;
-    margin-right: 6px;
+    margin: 18px 10px 10px 10px;
     position: relative;
+    background: lightblue;
+    height: 20px
+  
 }
 
 form.search button {
 
     margin-right: 40px;
+    box-shadow: lightblue;
+    
+}
+
+.search input {
+
+    background-color: lightblue;
+    height: 20px;
+
+
+}
+.search i {
+
+    background-color: lightblue;
+    height: 2-px;
+    width: 20px;
     
 }
 
@@ -224,11 +243,14 @@ form.search button {
 
     float: left;
     margin-left: 15px;
+ 
 }
 
 .bottom a:hover {
 
-    background-color: red;
+    background-color: aquamarine;
+   
+    box-shadow: 0 0 10px;
+    transform: scale(1.5);
 }
-
 
