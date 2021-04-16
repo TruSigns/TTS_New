@@ -1,0 +1,35 @@
+/* boxes */
+
+.header {
+  border: 20px;
+  padding: 20px;
+  margin: 20px;
+  background-color: gray;
+  border-style: groove;
+  color: black;
+}
+
+.font {
+  font-size: 24px;
+}
+
+li {
+  font-size: 24px;
+  margin: 10px;
+}
+
+#resize {
+
+    width: 100px;
+    height: auto;
+
+}
+
+
+ul {
+    
+    display: inline-block;
+    border: 1px solid;
+    padding: 20px;
+    margin: 20px;
+}

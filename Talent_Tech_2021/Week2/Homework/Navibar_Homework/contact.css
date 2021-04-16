@@ -1,0 +1,263 @@
+* {
+    margin: 0 ;
+    padding: 0;
+
+}
+
+body { background-image: url(./logos/Background_imagine.jpg);
+
+
+}
+
+.logo {
+
+    height: 60px;
+    width: 70px;
+    position: relative;
+}
+
+.cart{
+    
+    height: 60px;
+    width: 70px;
+    
+    margin-left: 10px;
+
+}
+.shop {
+
+    width: 70px;
+    height: 60px;
+
+}
+
+.cart  {
+
+    display: none;
+}
+
+nav {
+
+    width: 100%;
+    height: 60px;
+    background-color: lightblue;
+
+}
+
+nav p {
+
+    font-family: arial;
+    color: darkblue;
+    line-height: 55px;
+    float: left;
+    margin-left: 20px;
+    font-family: 'Zen Dots', cursive;
+
+}
+
+.free {
+
+
+    display: inline-block;
+    position: relative;
+    background-color: grey;
+
+
+
+}
+
+
+
+nav ul {
+
+    float: right;
+}
+
+nav ul li {
+
+    float: right;
+    position: relative;
+    list-style: none;
+
+}
+
+nav img {
+
+    padding:  0px 20px;
+
+
+}
+
+nav ul li a {
+
+    line-height: 55px;
+    padding: 22px 14px;
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+    color: blue;
+    margin-right: 12px;
+
+
+}
+
+nav ul li ul {
+
+    display: none;
+    position: absolute;
+    background-color: red;
+    
+
+}
+
+
+nav ul li:hover ul {
+
+    display: block;
+    
+}
+
+nav ul li ul li {
+
+    width: 180px;
+    border-radius: 4px 4px  4px 4px;
+   
+    
+}
+
+nav ul li ul li a{
+
+    padding: 22px 14px;
+   
+    
+}
+
+
+nav ul li ul li a:hover{
+
+    background-color: seagreen;
+
+
+}
+
+
+/* Search Bar */
+
+.search {
+
+    margin-top: 20px;
+    float: right;
+    font-size: 14px;
+    margin-right: 6px;
+    position: relative;
+}
+
+form.search button {
+
+    margin-right: 40px;
+    
+}
+
+/* Body */
+
+
+
+
+
+.firstpart {
+    
+    font-family: 'Zen Dots', cursive;
+    font-size: 30px;
+    color: lightgreen;
+    margin-left: 10px;
+    display: inline;
+    text-align: center;
+
+}
+
+#intro {
+
+    font-family: 'Zen Dots', cursive;
+    font-size: 15px;
+    color: red;
+    text-align: center;
+    margin-left: 40px;
+}
+
+#style {
+
+    color: greenyellow;
+    margin: 20px 40px ;
+    list-style-type: square;
+    margin-top: 40px;
+    
+    
+}
+
+/* footer */
+
+
+.end {
+
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
+
+#end {
+
+    
+    
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Roboto Mono', monospace;
+    color: blue;
+    position: relative;
+    margin-left: 20px;
+    
+
+}
+
+.bottom {
+
+    float: left;
+}
+
+
+.bottom a:hover {
+
+    background-color: red;
+}
+
+
+/* center */
+
+.center {
+
+    font-family: 'Zen Dots', cursive;
+    font-size: 100px;
+
+    color: lightblue;
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+.center p {
+
+    color: red;
+    font-size: 30px;
+    margin-top: 20px;
+
+}
+
+#info {
+
+    font-size: 40px;
+    text-align: center;
+    
+    margin-top: 50px;
+    color: orange;
+}
